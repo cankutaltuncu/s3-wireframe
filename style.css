@@ -6,3 +6,119 @@
 /* #menu linklerinin padding değeri: 20px */
 
 /* #footer butonu metni 'Başa dön' olmalı */
+
+#header,
+#hero,
+#gallery,
+#footer {
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#header {
+    background-color: white;
+    color: black;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header .logo a {
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;   
+}
+
+#menu {
+    display: flex;
+}
+
+#menu ul {
+    list-style-type: none;
+    display: flex;
+}
+
+#menu a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: flex;
+    font-size: 16px;
+    background-color: #777;
+}
+
+#menu a:hover {
+    background-color: #000;
+}
+
+#hero {
+    display: flex;
+    background-color: #666;
+    color: white;
+    text-align: center;
+    padding: 80px 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#hero h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+#hero p {
+    font-size: 20px;
+    margin: 0;
+}
+#gallery{
+    justify-content: space-between;
+    display: flex;
+    padding: 40px 0;
+    flex-direction: column;
+}
+#gallery .gallery-content{
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+.gallery-item {
+    background-color: #fff;
+    text-align: center;
+    padding: none;
+    
+}
+
+.image-placeholder {
+    width: 240px;
+    height: 180px;
+    background-color: #777;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    }
+
+#footer {
+    background-color: #777;;
+    color: white;
+    text-decoration: none;
+    padding: 20px 5;
+    font-size: 18px;
+    text-align: center;
+    
+}
+#footer .button {
+    background-color: white;
+    color: #000;
+    padding: 5px 15px;
+    font-size: 18px;
+    display: inline-block;
+    border: 2px solid black;
+}
